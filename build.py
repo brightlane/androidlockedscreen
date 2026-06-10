@@ -8,7 +8,7 @@ Deploy: https://brightlane.github.io/androidlockedscreen/
 import os, json, textwrap
 from pathlib import Path
 
-BASE = Path("/home/claude/androidlockedscreen")
+BASE = Path(__file__).parent
 AFFILIATE = "https://www.linkconnector.com/ta.php?lc=007949070197004532&atid=androidlockscreen"
 SITE_URL  = "https://brightlane.github.io/androidlockedscreen"
 YEAR      = "2026"
